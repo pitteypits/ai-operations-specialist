@@ -58,7 +58,7 @@ find one that splits into **3 or more** tokens.
 show("your_word_here")
 ```
 
-Write the word you found and its token split here: _______________________
+Write the word you found and its token split here: Homo Sapiens ['H', 'omo', 'ĠSap', 'iens']
 
 ## Task 3: Same word, different case/spacing
 
