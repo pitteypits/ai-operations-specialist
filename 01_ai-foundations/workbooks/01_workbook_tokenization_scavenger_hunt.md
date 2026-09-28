@@ -31,11 +31,11 @@ show("misspeling")
 | Input | Your guess | Actual tokens |
 |---|---|---|
 | supercalifragilisticexpialidocious |8|11 |
-| 2026 | | |
-| 🐍🔥 | | |
+| 2026 | 1|2 |
+| 🐍🔥 |2 |6 |
 | antidisestablishmentarianism | | |
-| don't | | |
-| misspeling | | |
+| don't |3 |2 |
+| misspeling | 2| 3|
 
 <details>
 <summary>💡 What's actually happening</summary>
