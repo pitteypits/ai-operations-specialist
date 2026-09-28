@@ -30,7 +30,7 @@ show("misspeling")
 
 | Input | Your guess | Actual tokens |
 |---|---|---|
-| supercalifragilisticexpialidocious | | |
+| supercalifragilisticexpialidocious |8|11 |
 | 2026 | | |
 | 🐍🔥 | | |
 | antidisestablishmentarianism | | |
