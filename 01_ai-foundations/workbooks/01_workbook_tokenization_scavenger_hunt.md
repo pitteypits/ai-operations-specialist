@@ -33,7 +33,7 @@ show("misspeling")
 | supercalifragilisticexpialidocious |8|11 |
 | 2026 | 1|2 |
 | 🐍🔥 |2 |6 |
-| antidisestablishmentarianism | | |
+| antidisestablishmentarianism | 5|5 |
 | don't |3 |2 |
 | misspeling | 2| 3|
 
