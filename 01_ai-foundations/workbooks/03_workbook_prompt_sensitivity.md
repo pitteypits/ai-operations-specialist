@@ -68,7 +68,7 @@ top5("The most important thing in life is")
 | The capital of France is | Paris| Uncertain|
 | The capital of that country is |the | uncertain|
 | My favorite color is |blue| uncertain|
-| The most important thing in life is |to | uncertain|
+| The most important thing in life is |to | confident|
 
 <details>
 <summary>💡 Answer</summary>
