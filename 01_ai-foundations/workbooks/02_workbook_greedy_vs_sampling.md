@@ -36,7 +36,7 @@ token ID, weighted by its probability.
 
 ```python
 # TODO: replace `next_id` with a sampled token
-next_id = next_id = torch.multinomial(probs, num_samples=1)[0]
+next_id = torch.multinomial(probs, num_samples=1)[0]
 print(text + tokenizer.decode(next_id))
 ```
 
@@ -69,9 +69,9 @@ for _ in range(10):
     probs = torch.softmax(next_token_logits, dim=-1)
 
     # TODO 1: sample the next token id from probs
-    next_id = ___________________________
+    next_id = torch.multinomial(probs, num_samples=1)
     # TODO 2: append it to `generated`
-    generated = ___________________________
+    generated = torch.cat([generated, next_id.unsqueeze(0)], dim=-1)
 
 print(tokenizer.decode(generated[0]))
 ```
