@@ -36,7 +36,7 @@ top5("I think the answer is")
 top5("I think the answer is,")
 ```
 
-Write down what changed: _______________________
+Write down what changed: Adding just a comma changed the entire top-5 distribution. “yes” dropped from 17.8% to 6.3%, and new tokens such as quotation marks, “we” and “you” became more likely. This shows that next-token probabilities are highly sensitive to context.
 
 <details>
 <summary>💡 What's happening</summary>
