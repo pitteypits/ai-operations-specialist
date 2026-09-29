@@ -65,10 +65,10 @@ top5("The most important thing in life is")
 
 | Prompt | #1 token probability | Confident or uncertain? |
 |---|---|---|
-| The capital of France is | Paris| Uncertain|
-| The capital of that country is |the | uncertain|
-| My favorite color is |blue| uncertain|
-| The most important thing in life is |to | confident|
+| The capital of France is | 0.174| Uncertain|
+| The capital of that country is |0.048 | uncertain|
+| My favorite color is |0.062| uncertain|
+| The most important thing in life is |0.432 | confident|
 
 <details>
 <summary>💡 Answer</summary>
@@ -90,8 +90,8 @@ the completions will diverge a lot. Run `top5()` on both and see if you
 were right.
 
 ```python
-top5("your_prompt_1")
-top5("your_prompt_2")
+top5("Madrid is the nicest")
+top5("The best sport is")
 ```
 
 ## Discussion (2 minutes)
