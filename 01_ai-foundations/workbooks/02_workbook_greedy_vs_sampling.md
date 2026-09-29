@@ -43,6 +43,9 @@ print(text + tokenizer.decode(next_id))
 Run it 5 times in a row. Did you get the same word every time? Did any
 surprise you?
 
+No. With sampling, the next token can change between runs because the token is drawn probabilistically rather than always selecting the highest-probability option.
+Yes. Some sampled tokens were less obvious than the greedy choice, which shows that lower-probability tokens can still be selected.
+
 <details>
 <summary>💡 Answer</summary>
 
