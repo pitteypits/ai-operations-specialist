@@ -65,10 +65,10 @@ top5("The most important thing in life is")
 
 | Prompt | #1 token probability | Confident or uncertain? |
 |---|---|---|
-| The capital of France is | | |
-| The capital of that country is | | |
-| My favorite color is | | |
-| The most important thing in life is | | |
+| The capital of France is | Paris| Uncertain|
+| The capital of that country is |the | uncertain|
+| My favorite color is |blue| uncertain|
+| The most important thing in life is |to | uncertain|
 
 <details>
 <summary>💡 Answer</summary>
